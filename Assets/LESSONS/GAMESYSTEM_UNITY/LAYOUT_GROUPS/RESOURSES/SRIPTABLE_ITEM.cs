@@ -3,6 +3,19 @@ using TMPro;
 
 public class SRIPTABLE_ITEM : MonoBehaviour
 {
-    public TextMeshProUGUI numberText;
-    public GameObject[] brightStars;
+    [SerializeField] private TextMeshProUGUI numberText;
+    [SerializeField] private GameObject[] brightStars;
+    
+
+    public void setup(int levelNumber)
+    {
+        string number = levelNumber.ToString();
+        numberText.text = number;
+        int starsToShow = Random.Range(0, 4);
+        for (int i = 0; i < brightStars.Length; i++)
+        {
+            brightStars[i].SetActive(true);
+
+        }
+    }
 }
