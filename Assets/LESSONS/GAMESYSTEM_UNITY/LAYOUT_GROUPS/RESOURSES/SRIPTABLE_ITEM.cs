@@ -11,7 +11,7 @@ public class SRIPTABLE_ITEM : MonoBehaviour
     {
         string number = levelNumber.ToString();
         numberText.text = number;
-        int starsToShow = Random.Range(0, 4);
+        int starsToShow = Random.Range(1, 4);
         for (int i = 0; i < brightStars.Length; i++)
         {
             if (i < starsToShow)
