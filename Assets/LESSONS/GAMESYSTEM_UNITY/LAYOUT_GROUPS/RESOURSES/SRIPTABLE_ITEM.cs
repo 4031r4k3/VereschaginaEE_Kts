@@ -14,8 +14,14 @@ public class SRIPTABLE_ITEM : MonoBehaviour
         int starsToShow = Random.Range(0, 4);
         for (int i = 0; i < brightStars.Length; i++)
         {
-            brightStars[i].SetActive(true);
-
+            if (i < starsToShow)
+            {
+                brightStars[i].SetActive(true);
+            }
+            else
+            {
+                brightStars[i].SetActive(false);
+            }
         }
     }
 }
