@@ -18,6 +18,7 @@ public class MenyController : MonoBehaviour
             GameObject newLevel = Instantiate(level, LevelsGrid);
             SRIPTABLE_ITEM item = newLevel.GetComponent<SRIPTABLE_ITEM>();
             item.setup(i + 1);
+            LevelsGrid.gameObject.SetActive(false);
         }
     }
 
