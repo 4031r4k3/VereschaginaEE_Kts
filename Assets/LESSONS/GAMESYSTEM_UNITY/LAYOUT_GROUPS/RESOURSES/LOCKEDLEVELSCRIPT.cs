@@ -2,8 +2,5 @@ using UnityEngine;
 
 public class LOCKEDLEVELSCRIPT : MonoBehaviour
 {
-    [SerializeField] private int numberOfLockedLevels;
-    [SerializeField] private GameObject level;
-    [SerializeField] private GameObject locker;
-
+    //ему ниче не надо вроде но на всякий случай пр
 }
