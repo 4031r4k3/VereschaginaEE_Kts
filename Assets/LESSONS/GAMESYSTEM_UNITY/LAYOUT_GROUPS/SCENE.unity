@@ -154,7 +154,7 @@ MonoBehaviour:
   openLevel: {fileID: 2569484709060054261, guid: 6b05dddb8af01c942b33d229764388f5, type: 3}
   lockedLevel: {fileID: 6924837676823655793, guid: 92ca099fdbff74b4992e1925db18da57, type: 3}
   LevelsGrid: {fileID: 1250925194}
-  totalLevelNumber: 15
+  totalLevelNumber: 18
   openLevelNumber: 13
 --- !u!4 &133902998
 Transform:
@@ -571,15 +571,15 @@ RectTransform:
   m_GameObject: {fileID: 585607369}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9609375, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1395255186}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2, y: 100}
-  m_SizeDelta: {x: 45.102905, y: -165.64001}
+  m_AnchoredPosition: {x: 4.148285, y: 68.591}
+  m_SizeDelta: {x: 55.483, y: -121.594}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &752433310
 GameObject:
@@ -919,17 +919,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GridLayoutGroup
   m_Padding:
-    m_Left: 10
-    m_Right: 30
-    m_Top: -120
-    m_Bottom: 150
+    m_Left: -30
+    m_Right: 0
+    m_Top: -50
+    m_Bottom: 0
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 200, y: 200}
-  m_Spacing: {x: -100, y: -100}
+  m_Spacing: {x: -70, y: -80}
   m_Constraint: 1
-  m_ConstraintCount: 8
+  m_ConstraintCount: 6
 --- !u!224 &1250925194
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1084,14 +1084,14 @@ RectTransform:
   m_GameObject: {fileID: 2112558872}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6818, y: 0.6818, z: 0.6818}
+  m_LocalScale: {x: 0.41789916, y: 0.41789916, z: 0.41789916}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1395255186}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 85, y: 72}
+  m_AnchoredPosition: {x: 62.4, y: 59.9}
   m_SizeDelta: {x: 171.98639, y: 138.9762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2112558874
